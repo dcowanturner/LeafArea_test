@@ -34,7 +34,7 @@ def process_image(image_path, output_image_folder, filename, min_leaf_size=500, 
     contours_ruler = [contour + np.array([0, offset]) for contour in contours_ruler]
 
     # Calculate the area of the ruler and the conversion factor
-    real_ruler_area = 16 * 3.7  # width*height in cm^2
+    real_ruler_area = 15.84 * 2.94  # width*height in cm^2
     conversion_factor = 0
     min_y = image.shape[0]
     for contour in contours_ruler:
