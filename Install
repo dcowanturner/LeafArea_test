@@ -1,0 +1,13 @@
+#Installs - on Mac
+
+#Install conda first.  
+
+conda create -n Image 
+conda activate Image
+
+conda install -c conda-forge opencv
+conda install -c anaconda pandas  
+
+#Text 
+conda install -c conda-forge pytesseract
+brew install tesseract
